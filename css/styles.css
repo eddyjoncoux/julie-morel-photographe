@@ -1,0 +1,666 @@
+@charset "UTF-8";
+/* Mobile Mixin */
+/* Desktop Mixin */
+/*Smartphone*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* Header */
+  header #header-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 0.1fr;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  header #header-grid .logo a {
+    font-family: "playfair-display";
+    font-size: 44px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+  }
+  /*Home Page*/
+  .main-home div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main-home div .texte-image {
+    font-family: "playfair-display";
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+  }
+  .main-home div .texte-image span {
+    color: #D4AF37;
+  }
+  .main-home div .button-voir-mon-travail {
+    font-family: "lato";
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 300px;
+    position: absolute;
+    z-index: 1;
+  }
+  .main-home div .button-voir-mon-travail a {
+    color: #FFFFFF;
+  }
+  /*About Page*/
+  .main-about-page div h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  }
+  .main-about-page div h2 {
+    font-family: "playfair-display";
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+  }
+  .main-about-page div p {
+    padding: 20px;
+    font-family: "playfair-display";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #D4AF37;
+  }
+  .main-about-page div .signature-julie-morel {
+    font-family: "whisper";
+    font-size: 55px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .main-about-page div img {
+    position: relative;
+    width: 100%;
+  }
+  /*Gallerie*/
+  .main-gallerie h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  }
+  .main-gallerie .gallerie {
+    display: grid;
+  }
+  .main-gallerie .gallerie .one {
+    display: flex;
+    align-items: flex-start;
+    grid-column: 1;
+  }
+  .main-gallerie .gallerie .two {
+    display: flex;
+    grid-column: 2;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 100px;
+  }
+  .main-gallerie .gallerie .three {
+    display: flex;
+    grid-column: 3;
+    align-items: flex-end;
+    width: 70%;
+    margin-left: 100px;
+  }
+  .main-gallerie .button-gallerie {
+    font-size: 16px;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+  .main-gallerie .button-gallerie button {
+    background: #D9D9D9;
+    color: #000000;
+    font-weight: 400;
+    padding: 6px;
+    transition: color 0.9s ease;
+  }
+  .main-gallerie .button-gallerie button.active {
+    background: #D4AF37;
+    color: #000000;
+  }
+  .main-gallerie .hidden {
+    display: none;
+  }
+  /*Prestations*/
+  .main-prestations h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  }
+  .main-prestations .prestations h2 {
+    font-family: "playfair-display";
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+  }
+  .main-prestations .prestations img {
+    margin-top: 10%;
+  }
+  .main-prestations .prestations .col-prestation-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-prestations .prestations .col-prestation-price .prestations-price {
+    display: inline;
+    font-weight: 900;
+    color: #D4AF37;
+    background-color: #000000;
+    padding: 5px;
+  }
+  .main-prestations .prestations h1 {
+    padding: 20px;
+  }
+  .main-prestations .prestations h2 {
+    padding: 20px;
+  }
+  .main-prestations .prestations p {
+    font-family: "playfair-display";
+    font-size: 18px;
+    font-weight: 400;
+    color: #D4AF37;
+    text-align: center;
+    padding: 20px;
+  }
+  /*Contact*/
+  .main-contact div .h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  }
+  .main-contact div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-contact div form form, .main-contact div form section, .main-contact div form p {
+    text-align: center;
+    color: #000;
+  }
+  .main-contact div form input {
+    color: #000000;
+  }
+  .main-contact div form input, .main-contact div form textarea {
+    background: #F8F8F8;
+    border: solid #000000 1px;
+    width: 340px;
+    height: 55px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .main-contact div form textarea {
+    height: 215px;
+  }
+  .main-contact div form button {
+    width: 265px;
+    height: 50px;
+    background: #000000;
+    color: #F8F8F8;
+    margin-top: 15px;
+  }
+  .main-contact div section p {
+    font-family: "playfair-display";
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .main-contact .icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main-contact .icons-container img {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+  }
+}
+footer .footer-container {
+  display: flex;
+  align-items: center;
+}
+footer .footer-container p {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
+}
+footer .footer-right {
+  display: flex;
+  margin-right: 10px;
+}
+footer .footer-right li {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
+  /* Header */
+  header {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  header #header-grid {
+    text-align: start;
+    margin-right: 20px;
+  }
+  header #header-grid .logo a {
+    font-family: "playfair-display";
+    font-size: 44px;
+    font-weight: 400;
+    color: #000000;
+  }
+  /*Home Page*/
+  .main-home .div-home {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main-home .div-home picture,
+  .main-home .div-home img {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+  .main-home .div-home .texte-image {
+    font-family: "playfair-display";
+    color: #000000;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+  }
+  .main-home .div-home .texte-image span {
+    color: #D4AF37;
+  }
+  .main-home .div-home .button-voir-mon-travail {
+    font-family: "lato";
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 400px;
+    position: absolute;
+    z-index: 1;
+  }
+  .main-home .div-home .button-voir-mon-travail a {
+    color: #FFFFFF;
+  }
+  .main-home .div-home .button-voir-mon-travail:hover {
+    background-color: #D4AF37;
+    transition: 0.3S ease;
+  }
+  /*About Page*/
+  .main-about-page {
+    margin-bottom: 50px;
+  }
+  .main-about-page .about-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+  }
+  .main-about-page .about-page .one {
+    display: flex;
+    align-items: flex-start;
+    grid-column: 1;
+    margin-left: 40px;
+  }
+  .main-about-page .about-page .two {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 100px;
+  }
+  .main-about-page .about-page .three {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 3;
+    align-items: flex-end;
+    width: 70%;
+    margin-left: 100px;
+  }
+  .main-about-page .about-page h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;
+  }
+  .main-about-page .about-page h2 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+  }
+  .main-about-page .about-page p {
+    margin-top: 20px;
+    font-family: "playfair-display";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    color: #D4AF37;
+  }
+  .main-about-page .about-page .signature-julie-morel {
+    display: flex;
+    margin-top: 50px;
+    font-family: "whisper";
+    font-size: 55px;
+    text-align: center;
+    font-weight: 400;
+  }
+  /*Gallery*/
+  .main-gallerie {
+    margin-bottom: 50px;
+  }
+  .main-gallerie h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;
+  }
+  .main-gallerie .button-gallerie {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+  .main-gallerie .button-gallerie button {
+    background: #D9D9D9;
+    color: #000000;
+    font-weight: 400;
+    padding: 10px;
+    transition: color 0.9s ease;
+  }
+  .main-gallerie .button-gallerie button:hover {
+    color: #D4AF37;
+    transition: 0.3s ease;
+  }
+  .main-gallerie .button-gallerie button.active {
+    background: #D4AF37;
+    color: #000000;
+  }
+  .main-gallerie .gallerie {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    row-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .main-gallerie .gallerie .col-one {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    gap: 20px;
+  }
+  .main-gallerie .gallerie .col-two {
+    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+    gap: 20px;
+  }
+  .main-gallerie .gallerie .col-three {
+    display: flex;
+    grid-column: 1;
+    grid-row: 3;
+    gap: 20px;
+  }
+  .main-gallerie .gallerie .col-one img,
+  .main-gallerie .gallerie .col-two img,
+  .main-gallerie .gallerie .col-three img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 402px;
+    height: 216px;
+    padding-bottom: 20px;
+  }
+  .main-gallerie .gallerie img {
+    transition: transform 0.3s ease, box-shawdow 0.3s ease;
+    cursor: pointer;
+  }
+  .main-gallerie .gallerie img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .main-gallerie .hidden {
+    display: none;
+  }
+  /*Prestations*/
+  .main-prestations {
+    margin-bottom: 50px;
+  }
+  .main-prestations h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;
+  }
+  .main-prestations .prestations {
+    display: grid;
+    justify-items: start;
+    align-items: end;
+    margin-left: 30px;
+  }
+  .main-prestations .prestations .col-prestations {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .main-prestations .prestations .col-prestation-resume {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-column: 2;
+    grid-row: 1;
+    width: 80%;
+    height: auto;
+  }
+  .main-prestations .prestations .col-prestation-resume h2 {
+    font-family: "playfair-display";
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .main-prestations .prestations .col-prestation-resume p {
+    font-family: "playfair-display";
+    font-size: 16px;
+    font-weight: 400;
+    color: #D4AF37;
+    text-align: start;
+    margin-bottom: 15px;
+  }
+  .main-prestations .prestations .col-prestation-resume .col-prestation-price {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 25px;
+  }
+  .main-prestations .prestations img {
+    margin-top: 10%;
+  }
+  .main-prestations .prestations .prestations-price {
+    font-weight: 900;
+    color: #D4AF37;
+    background-color: #000000;
+    padding: 5px;
+  }
+  /*Contact*/
+  .main-contact {
+    margin-bottom: 50px;
+  }
+  .main-contact div h1 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;
+  }
+  .main-contact div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-contact div form form, .main-contact div form section, .main-contact div form p {
+    text-align: center;
+    color: #000;
+  }
+  .main-contact div form input {
+    color: #000000;
+  }
+  .main-contact div form input, .main-contact div form textarea {
+    background: #F8F8F8;
+    border: solid #000000 1px;
+    width: 400px;
+    height: 55px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .main-contact div form textarea {
+    height: 215px;
+  }
+  .main-contact div form button {
+    width: 265px;
+    height: 50px;
+    background: #000000;
+    color: #F8F8F8;
+    margin-top: 15px;
+  }
+  .main-contact div section {
+    display: grid;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .main-contact div section .contact-col-one {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    gap: 20px;
+  }
+  .main-contact div section .contact-col-two {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 20px;
+  }
+  .main-contact div section p {
+    font-family: "playfair-display";
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .main-contact div section .icons-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+  }
+  .main-contact div section .icons-container img {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+}
+footer {
+  background: #f6f4f4;
+  padding: 20px;
+}
+footer .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-container p {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000000;
+}
+footer .footer-right {
+  display: flex;
+  margin-right: 10px;
+}
+footer .footer-right li {
+  padding-left: 20px;
+}
+
+/*lightbox*/
+.lightbox {
+  display: none; /* caché au départ */
+  position: fixed; /* se superpose à tout */
+  z-index: 1000; /* au-dessus de tout */
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+.lightbox .lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+.lightbox .close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 1001;
+}
+.lightbox .lightbox-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  transform: translateY(-50%);
+}
+.lightbox .lightbox-nav .prev,
+.lightbox .lightbox-nav .next {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: color 0.2s;
+}
+.lightbox .lightbox-nav .prev:hover,
+.lightbox .lightbox-nav .next:hover {
+  color: #ccc;
+}/*# sourceMappingURL=styles.css.map */
