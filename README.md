@@ -5,7 +5,7 @@ Un site vitrine fictif pour présenter le travail de Julie Morel, photographe pr
 ## 📸 Aperçu
 
 Ce projet simule le site web d'une photographe indépendante. Il comprend :
-- Une page d’accueil avec présentation et photos
+- Une page d’accueil
 - Une page à propos
 - Une galerie d’images
 - Une page de prestations
