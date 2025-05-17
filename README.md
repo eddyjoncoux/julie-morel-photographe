@@ -30,3 +30,4 @@ Ce projet simule le site web d'une photographe indépendante. Il comprend :
 
 Si tu compiles les fichiers SCSS :
 sass scss:css --watch
+

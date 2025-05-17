@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Morel - Photographe</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu-burger.css">
+  </head>
+  <body>
+    <header>
+      <div id="header-grid">
+        <h1 class="logo"><a href="index.html">JULIE MOREL</a></h1>
+          <button id="menu-toggle">    
+            <span id="on-click-menu">☰</span>
+          </button>
+      </div>
+      <nav id="menu">
+        <span id="close-menu">X</span>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="a-propos.html">A propos</a></li>
+          <li><a href="gallerie.html">Gallerie</a></li>
+          <li><a href="prestations.html">Prestations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="main-gallerie">
+        <h1>GALLERIE</h1>
+          <div class="button-gallerie">
+              <button>PORTRAIT</button>
+              <button>PROJET ARTISTIQUE</button>
+              <button>MARIAGE</button>
+              <button id="show-all">TOUT AFFICHER</button> 
+          </div>
+          <div class="gallerie">
+            <div class="col-one">
+              <img src="images/portrait/gallerie/girl.jpg" alt="image portrait" data-category="portrait"> 
+              <img src="images/portrait/gallerie/hands.jpg" alt="image projets artistique" data-category="projet artistique">
+              <img src="images/portrait/gallerie/wedding.jpg" alt="image mariage" data-category="mariage">
+            </div>  
+                                
+            <div class="col-two">
+              <img src="images/portrait/gallerie/woman.jpg" alt="image woman" data-category="portrait">
+              <img src="images/portrait/gallerie/art.jpg" alt="image art" data-category="projet artistique"> 
+              <img src="images/portrait/gallerie/wedding-2.jpg" alt="image mariage 2" data-category="mariage">
+            </div>  
+
+            <div class="col-three">
+              <img src="images/portrait/gallerie/wallpaper.jpg" alt="image wallpaper" data-category="projet artistique">  
+              <img src="images/portrait/gallerie/dog.jpg" alt="image dog" data-category="portrait">  
+              <img src="images/portrait/gallerie/love.jpg" alt="image love" data-category="mariage">
+            </div>  
+          </div>
+    </main>
+   
+<footer>
+  <div class="footer-container">
+    <p class="footer-left">2025 © Julie Morel</p>
+      <ul class="footer-right">
+        <li><a href="#">Mentions Légales</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">CGU</a></li>
+      </ul>
+    </div>
+</footer>
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div class="lightbox-nav">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+  <script type="text/javascript" src="/script/script-show-gallery.js"></script> 
+  <script type="text/javascript" src="/script/script-toggle.js"></script>
+  <script type="text/javascript" src="/script/script-filtre.js"></script>
+
+  </body>
+  </html>
