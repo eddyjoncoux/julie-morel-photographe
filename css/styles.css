@@ -12,7 +12,7 @@
     margin-bottom: 40px;
   }
   header #header-grid .logo a {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 44px;
     text-align: center;
     font-weight: 400;
@@ -27,7 +27,7 @@
     flex-direction: column;
   }
   .main-home div .texte-image {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     color: #000000;
     font-size: 30px;
     font-weight: 400;
@@ -54,27 +54,27 @@
   }
   /*About Page*/
   .main-about-page div h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
   }
   .main-about-page div h2 {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
   }
   .main-about-page div p {
     padding: 20px;
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     color: #D4AF37;
   }
   .main-about-page div .signature-julie-morel {
-    font-family: "whisper";
+    font-family: "whisper", sans-serif;
     font-size: 55px;
     text-align: center;
     font-weight: 400;
@@ -85,7 +85,7 @@
   }
   /*Gallerie*/
   .main-gallerie h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
@@ -138,13 +138,13 @@
   }
   /*Prestations*/
   .main-prestations h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
   }
   .main-prestations .prestations h2 {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
@@ -171,7 +171,7 @@
     padding: 20px;
   }
   .main-prestations .prestations p {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #D4AF37;
@@ -180,7 +180,7 @@
   }
   /*Contact*/
   .main-contact div .h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 48px;
     text-align: center;
@@ -216,7 +216,7 @@
     margin-top: 15px;
   }
   .main-contact div section p {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
@@ -265,7 +265,7 @@ footer .footer-right li {
     margin-right: 20px;
   }
   header #header-grid .logo a {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 44px;
     font-weight: 400;
     color: #000000;
@@ -285,7 +285,7 @@ footer .footer-right li {
     display: block;
   }
   .main-home .div-home .texte-image {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     color: #000000;
     font-size: 64px;
     font-weight: 400;
@@ -346,20 +346,20 @@ footer .footer-right li {
     margin-left: 100px;
   }
   .main-about-page .about-page h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 96px;
     text-align: center;
   }
   .main-about-page .about-page h2 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 64px;
     text-align: center;
   }
   .main-about-page .about-page p {
     margin-top: 20px;
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: start;
@@ -368,7 +368,7 @@ footer .footer-right li {
   .main-about-page .about-page .signature-julie-morel {
     display: flex;
     margin-top: 50px;
-    font-family: "whisper";
+    font-family: "whisper", sans-serif;
     font-size: 55px;
     text-align: center;
     font-weight: 400;
@@ -378,7 +378,7 @@ footer .footer-right li {
     margin-bottom: 50px;
   }
   .main-gallerie h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 96px;
     text-align: center;
@@ -458,7 +458,7 @@ footer .footer-right li {
     margin-bottom: 50px;
   }
   .main-prestations h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 96px;
     text-align: center;
@@ -484,14 +484,14 @@ footer .footer-right li {
     height: auto;
   }
   .main-prestations .prestations .col-prestation-resume h2 {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
     margin-bottom: 25px;
   }
   .main-prestations .prestations .col-prestation-resume p {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #D4AF37;
@@ -520,7 +520,7 @@ footer .footer-right li {
     margin-bottom: 50px;
   }
   .main-contact div h1 {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     font-size: 96px;
     text-align: center;
@@ -574,7 +574,7 @@ footer .footer-right li {
     padding-left: 20px;
   }
   .main-contact div section p {
-    font-family: "playfair-display";
+    font-family: "playfair-display", sans-serif;
     font-size: 20px;
     margin-top: 20px;
   }
@@ -603,6 +603,10 @@ footer .footer-container p {
   margin-right: 10px;
   margin-left: 10px;
   color: #000000;
+}
+footer .footer-container a:hover {
+  color: #D4AF37;
+  transition: 0.3S ease;
 }
 footer .footer-right {
   display: flex;

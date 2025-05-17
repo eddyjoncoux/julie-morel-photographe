@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'playfair-display';
-    src: url(/assests/fonts/playfair-display/static/PlayfairDisplay-Regular.ttf);
+    src: url(/assets/fonts/playfair-display/static/PlayfairDisplay-Regular.ttf);
  }
 
 @font-face {
     font-family: 'lato';
-    src: url(/assests/fonts/lato/Lato-Regular.ttf);
+    src: url(/assets/fonts/lato/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: 'whisper';
-    src: url(/assests/fonts/whisper/Whisper-Regular.ttf);
+    src: url(/assets/fonts/whisper/Whisper-Regular.ttf);
 }
